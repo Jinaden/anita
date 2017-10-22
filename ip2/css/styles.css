@@ -1,7 +1,6 @@
 .main-image {
   width: 100%;
   height: 900px;
-  padding-bottom: 150px;
 }
 
 .centered {
@@ -18,18 +17,23 @@
   display: grid;
   grid-template-rows: 1;
   grid-template-columns: 25% 25% 25% 25%;
-  height: 300px;
   text-align: center;
+  font-size: 16px;
+  height: 200px;
 }
 
 .happytime {
   grid-column-start: 1;
   grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: span 2;
+  height: 100px;
 }
 
 .partytime {
   grid-column-start: 1;
   grid-column-end: 2;
+  height: 100px;
 }
 
 .breakfast {
@@ -37,9 +41,9 @@
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: span 2;
-  height: 100px;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
+  height: 200px;
 }
 
 .lunch {
@@ -47,9 +51,9 @@
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: span 2;
-  height: 100px;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
+  height: 200px;
 }
 
 .dinner {
@@ -57,7 +61,23 @@
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: span 2;
-  height: 100px;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
+  height: 200px;
+}
+
+.container {
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#fastfood {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#drinks {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
