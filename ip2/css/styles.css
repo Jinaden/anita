@@ -18,7 +18,6 @@
   grid-template-rows: 1;
   grid-template-columns: 25% 25% 25% 25%;
   text-align: center;
-  font-size: 16px;
   height: 200px;
 }
 
@@ -29,7 +28,14 @@
   grid-row-end: span 2;
   height: 100px;
 }
-
+.happytime p{
+  padding-top: 50px;
+  font-size: 18px;
+}
+.partytime p{
+  padding-top: 50px;
+  font-size: 18px;
+}
 .partytime {
   grid-column-start: 1;
   grid-column-end: 2;
@@ -44,6 +50,27 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 200px;
+}
+
+.breakfast p {
+  padding-top: 100px;
+  color: white;
+  font-style: italic;
+  font-size: 22px;
+}
+
+.lunch p {
+  padding-top: 100px;
+  color: white;
+  font-style: italic;
+  font-size: 22px;
+}
+
+.dinner p {
+  padding-top: 100px;
+  color: white;
+  font-style: italic;
+  font-size: 22px;
 }
 
 .lunch {
@@ -81,6 +108,7 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.carousel{
+
+.carousel {
   background-image: url(assets/backgrounds/foodsBg.jpg);
 }
