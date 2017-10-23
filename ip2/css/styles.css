@@ -31,10 +31,12 @@
 .happytime p{
   padding-top: 50px;
   font-size: 18px;
+  font-weight: bold;
 }
 .partytime p{
   padding-top: 50px;
   font-size: 18px;
+  font-weight: bold;
 }
 .partytime {
   grid-column-start: 1;
