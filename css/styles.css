@@ -175,7 +175,7 @@
   padding-top: 20px;
 }
 
-.review {
+#review {
   border-style: solid;
   border-width: 50px;
   border-color: #FFFFFF;
@@ -203,7 +203,6 @@
 
 .mail {
   text-align: center;
-  height: 200px;
 }
 
 .formStyle {
@@ -241,9 +240,16 @@
 }
 
 .footer {
-  padding-top: 50px;
+  padding-top: 10px;
   background-color: red;
   text-align: center;
   background-color: #F15B29;
   color: white;
+  height: 200px;
+}
+#end{
+  background-image: url("../assets/backgrounds/subscribe.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
 }
