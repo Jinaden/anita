@@ -28,16 +28,19 @@
   grid-row-end: span 2;
   height: 100px;
 }
-.happytime p{
+
+.happytime p {
   padding-top: 50px;
   font-size: 18px;
   font-weight: bold;
 }
-.partytime p{
+
+.partytime p {
   padding-top: 50px;
   font-size: 18px;
   font-weight: bold;
 }
+
 .partytime {
   grid-column-start: 1;
   grid-column-end: 2;
@@ -95,12 +98,6 @@
   height: 200px;
 }
 
-.container {
-  margin: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
 #fastfood {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -111,6 +108,51 @@
   padding-bottom: 20px;
 }
 
+.images {
+  border-style: solid;
+  border-width: 20px;
+  border-color: #FFFFFF;
+  box-shadow: 0 0 6px 6px #F2F2F2;
+}
+
+.linkbox {
+  border-style: solid;
+  border-color: #F3855E;
+  padding: 12px;
+}
+
+.stomach {
+  width: 100%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 190px;
+  padding-right: 190px;
+}
+
+.words {
+  text-align: justify;
+  width: 100%;
+}
+
+.slideshow {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
 .carousel {
-  background-image: url(assets/backgrounds/foodsBg.jpg);
+  padding-top: 20px;
+}
+
+.review {
+  border-style: solid;
+  border-width: 50px;
+  border-color: #FFFFFF;
+  box-shadow: 0 0 6px 6px #F2F2F2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 190px;
+  padding-right: 190px;
+
 }
