@@ -247,7 +247,7 @@
   height: 200px;
 }
 #end{
-  background-image: url("../assets/backgrounds/subscribe.jpg");
+  background-image: url("assets/backgrounds/subscribe.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
