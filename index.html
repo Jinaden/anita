@@ -7,7 +7,7 @@
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <title>Anita's  Fantastic Kitchen</title>
+  <title>Anita's Fantastic Kitchen</title>
 </head>
 
 <body>
@@ -22,8 +22,8 @@
     </div>
   </div>
 
-  <div class="navbar">
-    <div class="times">
+  <div class="navbar" style="margin-top: -6px;">
+    <div class="times" style="margin-left: -11px;">
       <div class="happytime" style="  background-color:#E4E5E7">
         <p>Happy Hour</p>
       </div>
@@ -38,82 +38,115 @@
     <div class="lunch" style="background-image: url(assets/foodtop/lunch.jpg)">
       <p>Lunch</p>
     </div>
-    <div class="dinner" style="background-image: url(assets/foodtop/dinner.jpg)">
+    <div class="dinner" style="background-image: url(assets/foodtop/dinner.jpg)" style="margin-right: -11px;">
       <p>Dinner</p>
     </div>
   </div>
 
-  <div class="container">
+  <div class="stomach">
     <div id="fastfood">
       <div class="row">
         <div class="col-md-6">
-          <img src="assets/fastFood1.jpg" alt="food1" id="food">
-          <img src="assets/fastFood2.jpg" alt="food2" id="food">
+          <div class="images">
+            <img src="assets/fastFood1.jpg" alt="food1" id="food">
+            <img src="assets/fastFood2.jpg" alt="food2" id="food">
+          </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6" "words">
           <h2>Fast Food</h2>
           <h3>You'll love our delicous fast food</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
             irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <span class="linkbox"><a href="#" class="btn btn-outline-primary" style="color:#F05A29">VIEW GALLERY &#8594;</a></span>
+
         </div>
+
       </div>
-     </div>
+    </div>
     <div id="drinks">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6" "words">
           <h2>Drinks</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
             irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <span class="linkbox"><a href="#" class="btn btn-outline-primary" style="color:#F05A29">VIEW GALLERY &#8594;</a></span>
+
         </div>
         <div class="col-md-6">
-          <img src="assets/drink1.jpg" alt="drink1" id="food">
-          <img src="assets/drink2.jpg" alt="drink2" id="food">
-        </div>
-      </div>
-    </div>
-    <div class="carousel">
-      <div class="container">
-        <h2>Fast Food</h2>
-        <div id="anitaCarousel" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#anitaCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#anitaCarousel" data-slide-to="1"></li>
-            <li data-target="#anitaCarousel" data-slide-to="2"></li>
-          </ol>
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-            <div class="item active">
-              <img src="assets/fastfood/beefBurger.jpg" alt="Beef Burger">
-              <div class="carousel-caption">
-                <h3>Beef Burger</h3>
-              </div>
-            </div>
-            <div class="item">
-              <img src="assets/fastfood/chickenBurger.jpg" alt="Chicken Burger">
-              <div class="carousel-caption">
-                <h3>Chicken Burger</h3>
-              </div>
-            </div>
-            <div class="item">
-              <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
-              <div class="carousel-caption">
-                <h3>Chicken Pizza</h3>
-              </div>
-            </div>
+          <div class="images">
+            <img src="assets/drink1.jpg" alt="drink1" id="food">
+            <img src="assets/drink2.jpg" alt="drink2" id="food" style="margin-left: -4px;">
           </div>
-          <!-- Left and right controls -->
-          <a class="left carousel-control" href="#anitaCarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#anitaCarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-            <span class="sr-only">Next</span>
-          </a>
         </div>
       </div>
     </div>
+  </div>
+  <div class="slideshow" style="background-image: url(assets/backgrounds/foodsBg.jpg)">
+    <p>
+      <div class="carousel">
+        <div class="container">
+          <h2>Fast Food</h2>
+          <div id="anitaCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#anitaCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#anitaCarousel" data-slide-to="1"></li>
+              <li data-target="#anitaCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="assets/fastfood/beefBurger.jpg" alt="Beef Burger">
+                <div class="carousel-caption">
+                  <h3>Beef Burger</h3>
+                </div>
+              </div>
+              <div class="item">
+                <img src="assets/fastfood/chickenBurger.jpg" alt="Chicken Burger">
+                <div class="carousel-caption">
+                  <h3>Chicken Burger</h3>
+                </div>
+              </div>
+              <div class="item">
+                <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
+                <div class="carousel-caption">
+                  <h3>Chicken Pizza</h3>
+                </div>
+              </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#anitaCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+            <a class="right carousel-control" href="#anitaCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+          </div>
+        </div>
+      </div>
+
+    </p>
+  </div>
+
+  <div class="review">
+    <div class="container">
+      <div class="col-md-6" "customers">
+        <h3>Our Happy Customers</h3>
+      <center>  <h4>George Richard</h4></center>
+        <p>Great food!Menu is awesome,there foods are not only great but also at the right price.I''ll highly recommend them :)</p>
+      </div>
+      <div class="col-md-6" "about">
+        <h3>About Menu</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident.</p>
+      </div>
+    </div>
+  </div>
+  <div class="email" style="background-image: url(assets/backgrounds/subscribe.jpg)">
+    <center><p>Get our daily food items delivered to your email</p></center>
+  </div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
