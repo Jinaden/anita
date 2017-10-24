@@ -1,6 +1,6 @@
 .main-image {
   width: 100%;
-  height: 900px;
+  height: 760px;
 }
 
 .centered {
@@ -8,7 +8,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding-bottom: 2px;
+  padding-bottom: 480px;
   color: white;
   text-align: center;
 }
@@ -153,19 +153,67 @@
   padding-top: 20px;
   padding-left: 190px;
   padding-right: 190px;
-
 }
-.review h3{
+
+.review h3 {
   color: #F05A28;
   text-align: center;
 }
-.email{
-  height: 300px;
+
+.email {
+  text-align: center;
+  font-size: 25px;
+  background-image: url(/home/james/Desktop/MoringaProjects/anita/mpft-ip/assets/backgrounds/subscribe.jpg);
+  color: white;
+  padding: 100px;
   background-repeat: no-repeat;
   background-size: cover;
-
+  height: 400px;
 }
-.email p{
+
+.mail {
+  text-align: center;
+  height: 200px;
+}
+
+.formStyle {
+  margin: 20px;
+  background: rgba(250, 250, 250, 0.5);
+  width: 40%;
+  border-bottom-width: 1px;
+  border-bottom-color: #ecf0f1;
+  font-size: 28px;
+  font-weight: 100;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.formButton {
+  margin: 20px;
+  background-color: #F15A29;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 500;
+  padding: 6px 50px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.formButton:hover {
+  background-color: #27ae60;
+  color: #ffffff;
+}
+
+.formButton:active {
+  position: relative;
+  top: 3px;
+}
+
+.footer {
+  padding-top:50px;
+  background-color: red;
+  text-align: center;
+  background-color: #F15B29;
   color: white;
-  padding-top: 110px;
 }
