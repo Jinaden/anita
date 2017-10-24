@@ -1,6 +1,6 @@
 # Anita's Kitchen website.
 
-#### By **{James Nyamweya}**
+#### By **James Nyamweya**
 
 ## Description
 
