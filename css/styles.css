@@ -212,17 +212,18 @@
   box-shadow: 0 0 6px 6px #F2F2F2;
 }
 
-.linkbox {
+. .linkbox {
   border-style: solid;
   border-color: #F3855E;
   padding: 12px;
 }
-.linkbox2{
+
+.linkbox2 {
   border-style: solid;
   border-color: #F3855E;
   padding: 12px;
-  
 }
+
 .stomach {
   width: 100%;
   padding-top: 20px;
@@ -264,6 +265,13 @@
   background: rgba(255, 255, 255, 0.5);
 }*/
 
+.nav-tabs {
+  background-color: gray;
+  color: black;
+}
+/*.nav-tabs.active a{
+  color: black;
+}*/
 .review h3 {
   color: #F05A28;
   text-align: center;

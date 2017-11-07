@@ -21,14 +21,15 @@ This is my second independent project.It's a website for a restaurant owner call
 4.Bootstrap
 5.Google Fonts
 
-##Elements that have not yet been added.
+##Incomplete tasks
 1.Google Fonts
 2.Google Analytics
 3.Addition of an alert notifying the user they have been succesfully subscribed.
 4.Addition of an an animation to the numbers on the profiles such that they start from zero and increase to the final number displayed.
 5.Make the subscribe button to work using the mail chimp API.
 6.Creation of a modal that explains further what services the  restaurant offers for both Party time and Happy Hour.
-
+7.Add customer pictures to the review section
+8.Animate the carousel.
 
 ## Support and contact details
 
