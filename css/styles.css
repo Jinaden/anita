@@ -280,7 +280,13 @@
   color: #F05A28;
   text-align: center;
 }
-
+.customerimage{
+  padding-left: 253px;
+}
+.customerimage a{
+  color: #FF6D3A;
+  font-size: 40px;
+}
 #bolt a {
   font-size: 56px;
   text-decoration: none;
