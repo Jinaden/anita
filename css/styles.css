@@ -217,7 +217,12 @@
   border-color: #F3855E;
   padding: 12px;
 }
-
+.linkbox2{
+  border-style: solid;
+  border-color: #F3855E;
+  padding: 12px;
+  
+}
 .stomach {
   width: 100%;
   padding-top: 20px;
@@ -239,7 +244,7 @@
 }
 
 .picture {
-margin-left: 120px;
+  margin-left: 120px;
   padding-top: 25px;
 }
 
@@ -248,11 +253,13 @@ margin-left: 120px;
   margin-bottom: 20px;
   padding: 50px;
 }
-.nav{
+
+.nav {
   margin-left: 120px;
   background-color: #E3E3E3;
   border-right: 1px #D1D1D1;
 }
+
 /*.tab-pane {
   background: rgba(255, 255, 255, 0.5);
 }*/
@@ -276,7 +283,7 @@ margin-left: 120px;
   border: #FFFFFF;
   width: 100%;
   margin-right: 150px;
-  marg<div class="picture">in-left: 150px;
+  margin-left: 175px;
   margin-top: 100px;
   margin-bottom: 100px;
   padding: 10px;
