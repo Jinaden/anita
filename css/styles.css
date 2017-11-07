@@ -247,6 +247,8 @@
 .picture {
   margin-left: 120px;
   padding-top: 25px;
+  color: orange;
+  font-weight: bold;
 }
 
 .tab-panel {
