@@ -250,7 +250,9 @@
   color: orange;
   font-weight: bold;
 }
-
+.tab-panel li {
+  width: 319px;
+}
 .tab-panel {
   margin-top: 20px;
   margin-bottom: 20px;
